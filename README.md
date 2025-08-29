@@ -102,5 +102,6 @@ A lightweight, secure file sharing service with automatic deletion and modern UI
 
 ## 📞 Support
 
-**Made with 💙 by K9TX **
+Made with 💙 by K9TX 
+
 
