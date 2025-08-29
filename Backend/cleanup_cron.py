@@ -1,15 +1,4 @@
 #!/usr/bin/env python3
-"""
-Cron job script for PythonAnywhere to clean up expired files.
-Add this to your PythonAnywhere scheduled tasks to run every 5 minutes.
-
-Instructions for PythonAnywhere:
-1. Go to your PythonAnywhere dashboard
-2. Click on "Tasks" tab
-3. Create a new scheduled task
-4. Set command: python3.10 /home/yourusername/mysite/cleanup_cron.py
-5. Set schedule: */5 * * * * (every 5 minutes)
-"""
 
 import os
 import sys
@@ -34,4 +23,5 @@ if __name__ == '__main__':
         print("File cleanup completed successfully")
     except Exception as e:
         print(f"Error during cleanup: {e}")
+
         sys.exit(1)
